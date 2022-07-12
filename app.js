@@ -55,7 +55,7 @@ app.get('/posts/:id', (req, res) => {
     <link rel = "stylesheet" href = "/style.css"></link>
   </head>
   <body>
-    <header><img src="/logo.png"/>Wizard News</header>
+    <header><img src="/logo.png"/>Wizard News </header>
     <div class="not-found">
         <p>Accio Page! 🧙‍♀️ ... Page Not Found</p>
         <img src="/dumbledore-404.gif" />
