@@ -59,6 +59,7 @@ app.get('/posts/:id', (req, res) => {
     <div class="not-found">
         <p>Accio Page! 🧙‍♀️ ... Page Not Found</p>
         <img src="/dumbledore-404.gif" />
+        <a href = "/"><h2>Home?</h2></a>
       </div>
   </body>`);
 	} else {
@@ -80,7 +81,7 @@ app.get('/posts/:id', (req, res) => {
             <small>(by ${post.name})</small>
           </p>
           <small class="news-info">
-            ${post.upvotes} upvotes | ${post.date}
+            <a href = '/'>Home</a> ${post.upvotes} upvotes | ${post.date}
           </small>
         </div>
       </div>
